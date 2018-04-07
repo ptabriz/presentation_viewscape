@@ -362,34 +362,20 @@
 <section data-background="white">
 <h3> Background </h3>
 <ul>
-  <li> Viewscape modeling (exploring visual attributes of visible landscape)
-  <li> Binary viewsheds (calculated from point locations using line of sight calculations and digital elevation models DEM, DSM)
-  <li> Configuration metrics, composition metrics (Sang et al. 2008, Schirpke, 2013; Sahroui, 2016)
-  <li> Validation through photographs, field measurement, simulations (Sang et al. 2008, Tveit, 2009)
+  <li> Viewscape modeling
+  <li class="fragment fade-in"> Binary viewsheds (calculated from point locations using line of sight calculations and digital elevation models DEM, DSM)
+  <li class="fragment fade-in"> Configuration metrics, composition metrics <small>(Sang et al. 2008, Schirpke, 2013; Sahroui, 2016)</small>
+  <li class="fragment fade-in"> Widely used in ecosystem services, landscape assessment, planning, infrastrucure impact assessment, etc.
 </ul>
 </section>
 
 <section data-background="white">
 <h3> Background </h3>
 <ul>
-  <li> Viewscape modeling (exploring visual attributes of visible landscape)
-  <li> Binary viewsheds (calculated from point locations using line of sight calculations and digital elevation models DEM, DSM)
-  <li> Configuration metrics, composition metrics (Sang et al. 2008, Schirpke, 2013; Sahroui, 2016)
-  <li> Validation through photographs, field measurement, simulations (Sang et al. 2008, Tveit, 2009)
-</ul>
-</section>
-
-<section data-background="white">
-<h3> Background </h3>
-<ul>
-  <li> Gaps
-  <li> Focus on continental, regional and landscape scales
-  <li> Low data resolution (10-30m)
-  <li> Interpolation errors (trees)
-  <li> Ecological validity of image surveys (references)
-  <li> Replicating the actual on the ground situation
-  <li> Limited views, perception of depth
-  <li> Limited to aesthetic preferences
+  <li class="fragment fade-in"> Focus on continental, regional and landscape scales
+  <li class="fragment fade-in"> Coarse resolution, not suitable for modeling heterogenous landcover
+  <li class="fragment fade-in"> Replicating the actual on the ground situation
+  <li class="fragment fade-in"> Objective
 </ul>
 </section>
 
@@ -600,7 +586,7 @@
          Harbacous &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   0 %    </br>
          Mixed forest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  12 %    </br>
          Evergreen forest &nbsp;&nbsp; &nbsp;   0 %    </br>
-         Decidous forest &nbsp;&nbsp;&nbsp; &nbsp;  0 %    </br>
+         Deciduous forest &nbsp;&nbsp;&nbsp; &nbsp;  0 %    </br>
          Grass land  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17 %     </br>
          Paved roads &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48 %       </br>
          Buildings  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25%       </br>
@@ -612,7 +598,7 @@
           Harbacous &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  0 %    </br>
           Mixed forest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  0 %    </br>
           Evergreen forest &nbsp;&nbsp;&nbsp;  0 %    </br>
-          Decidous forest &nbsp;&nbsp;  18 %    </br>
+          Deciduous forest &nbsp;&nbsp;  18 %    </br>
           Grass land  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38 %     </br>
           Paved roads &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 27 %       </br>
           Buildings  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 17 %       </br>
@@ -624,7 +610,7 @@
         Harbacous &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  0 %    </br>
         Mixed forest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  5 %    </br>
         Evergreen forest &nbsp;&nbsp;&nbsp;  4 %    </br>
-        Decidous forest &nbsp;&nbsp;&nbsp; 32 %    </br>
+        Deciduous forest &nbsp;&nbsp;&nbsp; 32 %    </br>
         Grass land  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 38 %     </br>
         Paved roads &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 %       </br>
         Buildings  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5 %       </br>
@@ -635,7 +621,7 @@
     Harbacous &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 65 %    </br>
     Mixed forest &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  12 %    </br>
     Evergreen forest &nbsp;&nbsp;  8 %    </br>
-    Decidous forest &nbsp;&nbsp;  15 %    </br>
+    Deciduous forest &nbsp;&nbsp;  15 %    </br>
     Grass land  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0 %     </br>
     Paved roads &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  0 %       </br>
     Buildings  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  0 %       </br>
@@ -698,28 +684,34 @@
 </section>
 
 <section data-background="white">
-
   <h3>Results</h3>
+
 <table style= "font-size: 18pt">
   <tr><th>Response variable</th><th>R2 adjusted</th><th>Significant independent variable</th></tr>
-  <tr><td>Perceived Visual access</td><td>0.64</td><td style= "font-size: 14pt">Extent &uarr;***, Depth&uarr;**, Relief&darr;***, Vdepth var&darr;***, Building&darr;***, Paved&uarr;** , Decidous&uarr;**, Building&darr;*** , Nump&darr;*** </td></tr>
+  <tr><td>Perceived Visual access</td><td>0.64</td><td style= "font-size: 14pt">Extent &uarr;***, Depth&uarr;**, Relief&darr;***, Vdepth var&darr;***, Building&darr;***, Paved&uarr;** , Deciduous&uarr;**, Building&darr;*** , Nump&darr;*** </td></tr>
   <tr><td>Perceived Complexity</td><td>0.42</td> <td style= "font-size: 14pt"> SDI *** &uarr;, Relief **&uarr;, Depth** &darr;, ED***&uarr;, Nump***&uarr;, Building**&uarr;</td></tr></tr>
-  <tr><td>Perceived Naturalness</td><td>0.62</td><td style= "font-size: 14pt">Relief &uarr;***, Decidous &uarr;**, Mixed&uarr;***, herbaceous&uarr;***, Building&darr;***, Nump&uarr;**</td></tr>
-  <tr><td>Aesthetic Preference</td><td>0.54</td><td style= "font-size: 14pt">Relief &uarr;***, Extent &uarr;**, Depth&uarr;***, SDI&uarr;***, herbaceous&darr;***, Decidous&uarr;** Buildings&darr;** Nump&darr;** </td></tr>
+  <tr><td>Perceived Naturalness</td><td>0.62</td><td style= "font-size: 14pt">Relief &uarr;***, Deciduous &uarr;**, Mixed&uarr;***, herbaceous&uarr;***, Building&darr;***, Nump&uarr;**</td></tr>
+  <tr><td>Aesthetic Preference</td><td>0.54</td><td style= "font-size: 14pt">Relief &uarr;***, Extent &uarr;**, Depth&uarr;***, SDI&uarr;***, herbaceous&darr;***, Deciduous&uarr;** Buildings&darr;** Nump&darr;** </td></tr>
   </table>
- <p style="float: left; font-size: 14pt; text-align: left; width: 100%; margin-top: 0.1em;">
+
+<p style="float: left; font-size: 14pt; text-align: left; width: 100%; margin-top: 0.1em;">
 Generalized linear models for four response variables. Best model fit was determined by step-wise regression. <br>
-&uarr; : Positive association <br>&darr; : Nagative association <br>
-* p <0.05, ** p <0.01, *** p <0.001
-     <br><i>Variables:<i> Vdepth_var = viewdepth variation, Nump = patch number, ED = edge density, MSI= mean shape index,
+&uarr; : Positive association <br>&darr; : Nagative association <br>*p<0.05, ** p <0.01, *** p <0.001 <br>
+<i>Variables:</i> Vdepth_var = viewdepth variation, Nump = patch number, ED = edge density, MSI= mean shape index,
 SDI= shannon diversity index.
+
+</p>
 </section>
 
 
-
-
-
-
+<section data-background="white">
+<h3> Background </h3>
+<ul>
+  <li> Viewscapes modelled using LiDAR data can be potentially a usefull method for modeling landscape perceptions at site-scale and for complex environment
+  <li class="fragment fade-in"> IVE perception can be used to generate perceptions maps for the site (regression coeffiecient)
+  <li class="fragment fade-in"> Method can be used to create high-precision viewscape models for larger regions (HPC).
+</ul>
+</section>
 
 
 
