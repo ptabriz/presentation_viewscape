@@ -366,19 +366,31 @@
               </section>
 
 <section data-background="white">
-<h3> Background </h3>
+<h2> Background </h2>
 <ul>
   <li> Viewscape modeling
-  <li class="fragment fade-in"> Binary viewsheds (calculated from point locations using line of sight calculations and digital elevation models DEM, DSM)
-  <li class="fragment fade-in"> Configuration metrics, composition metrics <small>(Sang et al. 2008, Schirpke, 2013; Sahroui, 2016)</small>
-  <li class="fragment fade-in"> Widely used in ecosystem services, landscape assessment, planning, infrastrucure impact assessment, etc.
+
+
+
+  <li> Binary viewsheds (calculated from point locations using line of sight calculations and digital elevation models DEM, DSM)
+  <li> Landcover viewshed, configuration metrics, composition metrics
+  <li> Widely used in ecosystem services, landscape assessment, planning, infrastructure impact assessment, etc.
 </ul>
+
+<p style="float: left; font-size: 20pt; text-align: center; width: 46%; margin-right: .5%; margin-top: 3.5em;">
+  <img src="img/viewshed-profile.png" style="width: 100%">
+  <small> viewshed concept shown in profile </small>
+</p>
+ <p style="float: left; font-size: 20pt; text-align: center; width: 46%; margin-right:.5%; margin-top: 1em;">
+    <img src="img/binary-viewshed.png" style="width: 100%">
+    <small> viewshed map computed on digital elevation model </small>
+</p>
 
 
 <aside class="notes">
 
-So what is Viewscape modeling ?
-Viewscape modeling can be refered to as simulating the configuration,
+let me start with a brief background of what is Viewscape modeling ?
+Viewscape modeling can be refered to as analysis of the configuration,
 and composition of human 3D visual domain on the
 Landscape using geographic information systems.
 
@@ -399,11 +411,11 @@ and cultural ecosystem values.
 </section>
 
 <section data-background="white">
-<h3> Background </h3>
+<h2> Background </h2>
 <ul>
-  <li> Focus on continental, regional and landscape scales
-  <li class="fragment fade-in"> Objective (expert approach)
-  <li class="fragment fade-in"> LiDAR and Immersive Virtual Environments
+  <li> Focus on continental, regional and landscape, limited application for urban envioronments.
+  <li class="fragment fade-in"> Focus on objective assessment, limited correspondence with human perceptions.
+  <li class="fragment fade-in"> LiDAR and Immersive Virtual Environments (IVEs)
 </ul>
 
 <aside class="notes">
@@ -417,13 +429,12 @@ detailed landscape structure and ability of
 Immersive virtual environment to realistically
 represent on the-ground-situation, we aimed to develop and test a
 viewscape model that can incorporate urban complexity.
-
 </aside>
 
 </section>
 
 <section data-background= "white">
-<h3>Study area</h3>
+<h2>Study area</h2>
   <ul>
   <p style="float: left; font-size: 18pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.5em;">
     <img src="img/site_image.png" style="width: 100%">
@@ -451,7 +462,7 @@ viewscape model that can incorporate urban complexity.
 </section>
 
 <section data-background= "white">
-<h3>LiDAR data</h3>
+<h2>LiDAR data</h2>
   <ul>
   <p style="float: left; font-size: 18pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.5em;">
     <img src="img/lidar.png" style="width: 100%">
@@ -465,7 +476,7 @@ viewscape model that can incorporate urban complexity.
 </section>
 
 <section data-background= "white">
- <h3>Digital surface model</h3>
+ <h2>Digital surface model</h2>
    <ul>
    <p style="float: left; font-size: 18pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.5em;">
      <img src="img/lidar2.png" style="width: 100%">
@@ -478,7 +489,7 @@ viewscape model that can incorporate urban complexity.
 </section>
 
 <section data-background= "white">
- <h3>Digital surface model</h3>
+ <h2>Digital surface model</h2>
    <ul>
    <p style="float: left; font-size: 18pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.5em;">
      <img src="img/lidar3.png" style="width: 100%">
@@ -492,7 +503,7 @@ viewscape model that can incorporate urban complexity.
 
 <section data-background="white">
 
-     <h3> Tree obstruction error</h3>
+     <h2> Tree obstruction error</h2>
      <ul>
        <p style="float: left; font-size: 20pt; text-align: center; width: 49%; margin-right: .5%; margin-bottom: 0.5em;">
          <img src="img/obstruction.png" style="width: 100%">
@@ -514,7 +525,7 @@ viewscape model that can incorporate urban complexity.
 
 <section  data-background="white">
 
-     <h3> Vegetation structure</h3>
+     <h2> Vegetation structure</h2>
      <ul>
        <p style="float: left; font-size: 20pt; text-align: center; width: 30%; margin-right: .5%; margin-bottom: 0.0em;">
          <img src="img/structure_a.png" style="width: 100%">
@@ -545,7 +556,7 @@ A process called Trunk obstruction modeling.
 
 
 <section data-transition="fade-out" data-background="white">
-  <h3> Trunk obstrcution modeling </h3>
+  <h2> Trunk obstrcution modeling </h2>
   <p style="float: left; font-size: 20pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.0em;">
     <img src="img/dsm.png" style="width: 100%"><br>DSM</p>
 
@@ -556,7 +567,7 @@ the tree peaks In this figure shown in dark brown dotes.
 </section>
 
 <section data-transition="fade-out" data-background="white">
-  <h3> Trunk obstrcution modeling </h3>
+  <h2> Trunk obstrcution modeling </h2>
   <p style="float: left; font-size: 20pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.0em;">
     <img src="img/geomorphon.png" style="width: 100%"><br>Landform analysis (Geomorphon)</p>
 
@@ -568,7 +579,7 @@ the tree peaks In this figure shown in dark brown dotes.
     </section>
 
 <section data-transition="fade-in" data-background="white">
-  <h3> Trunk obstrcution modeling </h3>
+  <h2> Trunk obstrcution modeling </h2>
   <p style="float: left; font-size: 20pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.0em;">
     <img src="img/peaks.png" style="width: 100%"><br>Extracted tree peaks</p>
 
@@ -580,7 +591,7 @@ the tree peaks In this figure shown in dark brown dotes.
 
 
 <section data-transition="fade-in" data-background="white">
-  <h3> Trunk obstrcution modeling </h3>
+  <h2> Trunk obstrcution modeling </h2>
   <p style="float: left; font-size: 20pt; text-align: center; width: 100%; margin-right: .5%; margin-bottom: 0.0em;">
     <img src="img/trunk_replace.png" style="width: 100%"><br>DSM after trunck replacement</p>
 
@@ -616,7 +627,7 @@ This images shows the acquired DSM after trunk obstrcution modeling
 
 <section data-background="white">
 
-     <h3> High resolution Landcover</h3>
+     <h2> High resolution Landcover</h2>
      <ul>
        <p style="float: left; font-size: 20pt; text-align: center; width: 32%; margin-right: .5%; margin-bottom: 0.5em;">
          <img src="img/landcover_a.png" style="width: 100%">
@@ -705,7 +716,7 @@ computed the viewshed analysis and viewscape metrics for all of the grid cell's 
 </section>
 
 <section data-background="white">
-<h3>Composition metrics</h3>
+<h2>Composition metrics</h2>
      <ul>
        <p style="float: left; font-size: 14pt; text-align: left; width: 20%; margin-left: 10%; margin-bottom: 0.5em;">
          <img src="img/natural.png" style="width: 100%">
@@ -762,7 +773,7 @@ computed the viewshed analysis and viewscape metrics for all of the grid cell's 
 
 
 <section data-background="white">
-<h3>Configuration metrics</h3>
+<h2>Configuration metrics</h2>
 <table style="font-size: 14pt;">
 
 <tr><td></td><td><img src="img/complexity_210.PNG"></td><td><img src="img/complexity_194.png" ></td><td><img src="img/complexity_196.png" ></td></tr>
@@ -791,7 +802,7 @@ Mean shape index, and patch number.
 </section>
 
 <section data-background="white">
-  <h3>IVE image acquisition method</h3>
+  <h2>IVE image acquisition method</h2>
   <p style="float: left; font-size: 18pt; text-align: left; width: 100%; margin-bottom: 0.5em;">
 <img src="img/ive_method.png" style="width: 100%">
   Image aquisition &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Stiching and editing
@@ -812,7 +823,7 @@ Mean shape index, and patch number.
 </section>
 
 <section data-background="white">
-   <h3> IVE survey</h3>
+   <h2> IVE survey</h2>
   <ul>
     <p style="float: left; font-size: 20pt; text-align: center; width: 100%;">
   <video data-autoplay class="stretch"  src="img/video_restorativeness.mp4" frameborder="0" width= 70% loop="loop">
@@ -839,7 +850,7 @@ Mean shape index, and patch number.
 </section>
 
 <section data-background="white">
-  <h3>Results</h3>
+  <h2>Results</h2>
 
 <table style= "font-size: 18pt">
   <tr><th>Response variable</th><th>R2 adjusted</th><th>Significant independent variable</th></tr>
@@ -873,7 +884,7 @@ included in these models, and we expect that their inclusion would improve the r
 
 
 <section data-background="white">
-<h3> Conclusion </h3>
+<h2> Conclusion </h2>
 <ul>
   <li> Viewscapes modelled using LiDAR data can be potentially a usefull method for modeling landscape perceptions at site-scale and for complex environment
   <li class="fragment fade-in"> IVE perception can be used to generate perceptions maps for the site (regression coeffiecient)
@@ -888,6 +899,9 @@ area that can be potentially valuable assets for planners and designers to under
 With improvements in high performance computing and parallell processing, high precision modeling can be applied to larger scale regions.
 </aside>
 
+</section>
+
+<section data-background="img/anim.gif" data-background-size="95%" >
 </section>
 
 
